@@ -1,0 +1,74 @@
+ pdftk Ausbildungsnachweis_tmpl.pdf dump_data_fields
+---
+FieldType: Text
+FieldName: Ausbildungsjahr
+FieldNameAlt: Ausbildungsjahr
+FieldFlags: 0
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: Ggf ausbildende Abteilung
+FieldNameAlt: Ggf. ausbildende Abteilung
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Ausbildungswoche vom
+FieldNameAlt: Ausbildungswoche vom
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: bis zum
+FieldNameAlt: bis zum
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Unterweisungen, betrieblicher Unterricht, sonstige Schulungen
+FieldFlags: 8392704
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Themen des Berufsschulunterrichts
+FieldFlags: 8392704
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Stunden
+FieldFlags: 8392704
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: Datum Unterschrift Auszubildender
+FieldNameAlt: Datum, Unterschrift Auszubildende/r
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Datum Unterschrift Ausbildender oder Ausbilderin
+FieldNameAlt: Datum, Unterschrift Ausbildende/r oder Ausbilder/in
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Name desder Auszubildenden
+FieldNameAlt: Name des/der Auszubildenden
+FieldFlags: 0
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Betriebliche T&#228;tigkeiten
+FieldFlags: 8392704
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: Stunden_1
+FieldFlags: 8392704
+FieldValue: &#13;
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: Stunden_2
+FieldFlags: 8392704
+FieldJustification: Center
