@@ -6,5 +6,5 @@ import (
 )
 
 func TestParseExcel(t *testing.T) {
-	t.Log(ParseExcel("tables/test.xlsx"))
+	t.Log(ParseExcel("tables/test.xlsx", "02.01"))
 }

@@ -4,7 +4,7 @@ import (
 	"testing"
 	. "tools/exceltopdf/pdf"
 
-	"github.com/desertbit/fillpdf"
+	fillpdf "github.com/goevexx/fillpdfV2"
 )
 
 func TestFillPDF(t *testing.T) {
@@ -13,5 +13,5 @@ func TestFillPDF(t *testing.T) {
 		"Ggf ausbildende Abteilung": "Test",
 		"Unterweisungen, betrieblicher Unterricht, sonstige Schulungen": "Test\nTest1",
 	}
-	FillPDF(form, "files/Ausbildungsnachweis_tmpl.pdf", "files/filled.pdf")
+	FillPDF(form, "files/Ausbildungsnachweis_tmpl.pdf", "files/filled.pdf", true)
 }
